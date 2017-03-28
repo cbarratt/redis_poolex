@@ -52,7 +52,7 @@ defmodule RedisPoolex.Mixfile do
   defp deps do
     [
       {:poolboy, ">= 1.5.1"},
-      {:exredis, ">= 0.2.2"},
+      {:exredis, ">= 0.2.5", github: 'artemeff/exredis', ref: "00d0de97bc12b3f9712198b7a08efb5c0eb9436a"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev}
     ]
